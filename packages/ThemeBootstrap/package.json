@@ -1,0 +1,34 @@
+{
+  "name": "@react-core/theme-bootstrap",
+  "version": "1.0.0",
+  "description": "React Core - Theme Bootstrap",
+  "main": "dist/ThemeBootstrap.js",
+  "scripts": {
+    "compile": "babel src --out-dir dist --ignore story.js,test.js --copy-files",
+    "prepublish": "npm run compile",
+    "storybook": "start-storybook -p 9001 -c ../../.storybook",
+    "build-storybook": "build-storybook",
+    "test": "jest --config ../../jest.config.js",
+    "coverage": "jest --config ./jest.config.js --coverage"
+  },
+  "contributors": [
+    "Walter Zalazar <walter.zalazar.mdp@gmail.com> (https://github.com/wzalazar)",
+    "Natanael Zalazar <zalazar.natanael@gmail.com> (https://github.com/zalazarnatanael)",
+    "José Luis Casella <jlcasella.casella@gmail.com> (https://github.com/jl-casella)"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@storybook/react": "3.4.2",
+    "babel-cli": "6.26.0",
+    "jest": "22.4.3",
+    "rimraf": "2.6.2"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
+}

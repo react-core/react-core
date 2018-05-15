@@ -1,0 +1,26 @@
+{
+  "presets": [
+    "react",
+    ["env", {
+        "targets": {
+          "browsers": ["> 2%", "IE 11", "safari > 9"]
+        },
+        "test": {
+          "presets": ["es2015", "react", "stage-2"],
+          "plugins": [
+            "transform-es2015-modules-commonjs",
+            "dynamic-import-node",
+            "styled-jsx/babel", { "plugins": ["styled-jsx-plugin-sass"] }
+          ]
+        }
+      }
+    ],
+    "stage-2"
+  ],
+  "plugins": [
+    [
+      "styled-jsx/babel",
+      { "plugins": ["styled-jsx-plugin-sass"] }
+    ]
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "<%= package_name %>",
+  "version": "0.0.1",
+  "description": "React Core - Framework",
+  "scripts": {
+    "compile": "babel src --out-dir dist --ignore story.js,test.js --copy-files",
+    "prepublish": "npm run compile",
+    "storybook": "STORYBOOK_PACKAGE=<%= package_name %> start-storybook -p 9001 -c ../../.storybook",
+    "build-storybook": "build-storybook",
+    "test": "jest --config ../../jest.config.js",
+    "coverage": "jest --config ./jest.config.js --coverage"
+  },
+  "devDependencies": {
+    "@storybook/react": "^3.4.2",
+    "babel-cli": "^6.26.0",
+    "jest": "^22.4.3",
+    "eslint": "^4.19.1"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
+}

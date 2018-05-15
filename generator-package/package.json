@@ -1,0 +1,17 @@
+{
+  "name": "generator-package",
+  "version": "0.1.0",
+  "description": "",
+  "main": "generator.js",
+  "files": [
+    "package"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "yeoman-generator": "^1.0.0"
+  },
+  "devDependencies": {}
+}
