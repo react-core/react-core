@@ -16,6 +16,10 @@
     "Natanael Zalazar <zalazar.natanael@gmail.com> (https://github.com/zalazarnatanael)",
     "José Luis Casella <jlcasella.casella@gmail.com> (https://github.com/jl-casella)"
   ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@react-core/theme-bootstrap": "^0.1.0",
     "@react-core/theme-material": "^0.1.0",
