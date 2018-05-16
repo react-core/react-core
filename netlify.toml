@@ -2,13 +2,13 @@
   publish = "storybook-static"
 
 [context.production]
-  command = "npm run build:production"
+  command = "npm run bootstrap && npm run build-storybook"
 
 [context.deploy-preview]
-  command = "npm run build-storybook"
+  command = "npm run bootstrap && npm run build-storybook"
 
 [context.testing]
-  command = "npm run build-storybook"
+  command = "npm run bootstrap && npm run build-storybook"
 
 [context.branch-deploy]
-  command = "npm run build-storybook"
+  command = "npm run bootstrap && npm run build-storybook"
