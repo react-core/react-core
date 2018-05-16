@@ -2,7 +2,7 @@
   publish = "storybook-static"
 
 [context.production]
-  command = "npm run build:production"
+  command = "npm run build-storybook"
 
 [context.deploy-preview]
   command = "npm run build-storybook"
