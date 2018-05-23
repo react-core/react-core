@@ -13,7 +13,9 @@
     "precommit": "lint-staged",
     "test": "jest --config ./jest.config.js",
     "lint": "eslint ./packages/**/src ./packages/**/test",
-    "new-package": "yo ./generator-package"
+    "new-package": "yo ./generator-package",
+    "semantic-release": "lerna-semantic-release pre && lerna-semantic-release post && lerna-semantic-release perform",
+    "postinstall": "npm run bootstrap"
   },
   "lint-staged": {
     "*.{js}": [
@@ -56,6 +58,7 @@
     "husky": "0.14.3",
     "jest": "22.4.3",
     "lerna": "2.10.2",
+    "lerna-semantic-release": "9.1.0",
     "lint-staged": "7.0.5",
     "markdown-loader": "2.0.2",
     "node-sass": "4.9.0",
