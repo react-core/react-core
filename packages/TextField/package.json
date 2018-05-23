@@ -1,6 +1,6 @@
 {
   "name": "@react-core/textfield",
-  "version": "0.1.1",
+  "version": "0.0.0-development",
   "description": "React Core - TextField",
   "main": "dist/TextField.js",
   "scripts": {

@@ -1,12 +1,12 @@
 {
-  "name": "@react-core/button",
+  "name": "@react-core/grid",
   "version": "0.0.0-development",
-  "description": "React Core - Button",
-  "main": "dist/Button.js",
+  "description": "React Core - Grid",
+  "main": "dist/Grid.js",
   "scripts": {
     "compile": "babel src --out-dir dist --ignore story.js,test.js --copy-files",
     "prepublish": "npm run compile",
-    "storybook": "STORYBOOK_PACKAGE=Button start-storybook -p 9001 -c ../../.storybook",
+    "storybook": "STORYBOOK_PACKAGE=Grid start-storybook -p 9001 -c ../../.storybook",
     "build-storybook": "build-storybook",
     "test": "jest --config ../../jest.config.js",
     "lint": "eslint ./src ./test -c ../../.eslintrc.json",
