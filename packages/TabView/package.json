@@ -1,6 +1,6 @@
 {
   "name": "@react-core/tabview",
-  "version": "0.1.1",
+  "version": "0.0.0-development",
   "description": "React Core - Tab view",
   "main": "dist/TabView.js",
   "scripts": {

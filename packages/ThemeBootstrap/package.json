@@ -1,6 +1,6 @@
 {
   "name": "@react-core/theme-bootstrap",
-  "version": "0.1.1",
+  "version": "0.0.0-development",
   "description": "React Core - Theme Bootstrap",
   "main": "dist/ThemeBootstrap.js",
   "scripts": {
