@@ -1,6 +1,6 @@
 {
   "name": "@react-core/grid",
-  "version": "0.0.0-development",
+  "version": "0.1.2",
   "description": "React Core - Grid",
   "main": "dist/Grid.js",
   "scripts": {

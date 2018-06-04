@@ -1,6 +1,6 @@
 {
   "name": "@react-core/button",
-  "version": "0.0.0-development",
+  "version": "0.1.2",
   "description": "React Core - Button",
   "main": "dist/Button.js",
   "scripts": {

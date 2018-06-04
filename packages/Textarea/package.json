@@ -1,6 +1,6 @@
 {
   "name": "@react-core/textarea",
-  "version": "0.0.0-development",
+  "version": "0.1.2",
   "description": "React Core - Textarea",
   "main": "dist/Textarea.js",
   "scripts": {
