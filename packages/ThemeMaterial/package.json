@@ -1,6 +1,6 @@
 {
   "name": "@react-core/theme-material",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "React Core - Theme Material",
   "main": "dist/ThemeMaterial.js",
   "scripts": {
