@@ -8,7 +8,7 @@ const Button = ({ type, label, theme, icon = '', ...rest }) => (
     componentName={'Button'}
     render={({ style }) => (
       <div>
-        <button className={`${type}`} {...rest}>
+        <button type={type} className={`${type}`} {...rest}>
           {label}
           <span className={`fa ${icon}`} />
         </button>

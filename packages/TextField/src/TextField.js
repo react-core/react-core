@@ -8,13 +8,13 @@ const setValue = event => {
   input.setAttribute('value', value)
 }
 
-const TextField = ({ label, placeholder, theme }) => (
+const TextField = ({ label, placeholder, theme, ...rest }) => (
   <Provider
     theme={theme}
     componentName={'TextField'}
     render={({ style }) => (
       <div>
-        <input placeholder={placeholder} onKeyUp={e => setValue(e)} />
+        <input {...rest} placeholder={placeholder} onKeyUp={e => setValue(e)} />
         <hr />
         <label>{label}</label>
         <style jsx>{style}</style>

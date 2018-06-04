@@ -8,13 +8,17 @@ const setValue = event => {
   input.setAttribute('value', value)
 }
 
-const Textarea = ({ label, placeholder, theme }) => (
+const Textarea = ({ label, placeholder, theme, ...rest }) => (
   <Provider
     theme={theme}
     componentName={'Textarea'}
     render={({ style }) => (
       <div>
-        <textarea placeholder={placeholder} onKeyUp={e => setValue(e)} />
+        <textarea
+          {...rest}
+          placeholder={placeholder}
+          onKeyUp={e => setValue(e)}
+        />
         <hr />
         <label>{label}</label>
         <style jsx>{style}</style>
