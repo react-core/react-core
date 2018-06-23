@@ -7,4 +7,4 @@ after_success:
   - echo "TRAVIS_PULL_REQUEST_BRANCH= " $TRAVIS_PULL_REQUEST_BRANCH
   - echo "TRAVIS_EVENT_TYPE= " $TRAVIS_EVENT_TYPE
   - '[[ $TRAVIS_BRANCH = "master" && $TRAVIS_PULL_REQUEST_BRANCH = "" ]] &&
-    (npm install -g travis-deploy-once && travis-deploy-once "lerna publish --force-publish --conventional-commits --yes")'
+    (npm install -g travis-deploy-once && travis-deploy-once "make publish")'
