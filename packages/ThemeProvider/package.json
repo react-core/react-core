@@ -1,6 +1,6 @@
 {
   "name": "@react-core/theme-provider",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "React Core - Theme Provider",
   "main": "dist/ThemeProvider.js",
   "scripts": {
