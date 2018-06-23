@@ -8,7 +8,7 @@ describe('<Button />', () => {
   let wrapper
 
   beforeEach(() => {
-    wrapper = mount(<Button label={'Test Button'} />)
+    wrapper = mount(<Button label={'Test'} />)
   })
 
   test('Should render', () => {
