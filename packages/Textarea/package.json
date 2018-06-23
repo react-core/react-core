@@ -1,6 +1,6 @@
 {
   "name": "@react-core/textarea",
-  "version": "0.1.17",
+  "version": "0.1.18",
   "description": "React Core - Textarea",
   "main": "dist/Textarea.js",
   "scripts": {
@@ -21,9 +21,9 @@
     "access": "public"
   },
   "devDependencies": {
-    "@react-core/theme-bootstrap": "^0.1.17",
-    "@react-core/theme-material": "^0.1.17",
-    "@react-core/theme-provider": "^0.1.17",
+    "@react-core/theme-bootstrap": "^0.1.18",
+    "@react-core/theme-material": "^0.1.18",
+    "@react-core/theme-provider": "^0.1.18",
     "@storybook/react": "3.4.2",
     "babel-cli": "6.26.0",
     "eslint": "4.19.1",
