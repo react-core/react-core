@@ -1,6 +1,6 @@
 {
   "name": "@react-core/grid",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "React Core - Grid",
   "main": "dist/Grid.js",
   "scripts": {
@@ -22,9 +22,9 @@
     "access": "public"
   },
   "devDependencies": {
-    "@react-core/theme-bootstrap": "^0.1.12",
-    "@react-core/theme-material": "^0.1.12",
-    "@react-core/theme-provider": "^0.1.12",
+    "@react-core/theme-bootstrap": "^0.1.13",
+    "@react-core/theme-material": "^0.1.13",
+    "@react-core/theme-provider": "^0.1.13",
     "@storybook/react": "3.4.2",
     "babel-cli": "6.26.0",
     "eslint": "4.19.1",
