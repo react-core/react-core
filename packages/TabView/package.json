@@ -1,6 +1,6 @@
 {
   "name": "@react-core/tabview",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "React Core - Tab view",
   "main": "dist/TabView.js",
   "scripts": {
@@ -21,9 +21,9 @@
     "access": "public"
   },
   "devDependencies": {
-    "@react-core/theme-bootstrap": "^0.1.13",
-    "@react-core/theme-material": "^0.1.13",
-    "@react-core/theme-provider": "^0.1.13",
+    "@react-core/theme-bootstrap": "^0.1.14",
+    "@react-core/theme-material": "^0.1.14",
+    "@react-core/theme-provider": "^0.1.14",
     "@storybook/react": "3.4.2",
     "babel-cli": "6.26.0",
     "eslint": "4.19.1",
