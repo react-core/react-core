@@ -1,12 +1,16 @@
 {
   "lerna": "2.9.0",
-  "version": "0.1.25",
+  "version": "0.1.23",
   "packages": [
     "packages/*"
   ],
   "command": {
     "init": {
       "exact": true
+    },
+    "publish": {
+      "independent": false,
+      "conventionalCommits": true
     }
   }
 }
