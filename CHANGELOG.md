@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.1.26"></a>
+## [0.1.26](https://github.com/react-core/react-core/compare/v0.1.25...v0.1.26) (2018-06-26)
+
+
+### Bug Fixes
+
+* Change label test ([#13](https://github.com/react-core/react-core/issues/13)) ([6da4757](https://github.com/react-core/react-core/commit/6da4757))
+
+
+
+
 <a name="0.1.25"></a>
 ## [0.1.25](https://github.com/react-core/react-core/compare/v0.1.23...v0.1.25) (2018-06-23)
 
