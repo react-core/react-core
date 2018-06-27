@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.1.31"></a>
+## [0.1.31](https://github.com/react-core/react-core/compare/v0.1.30...v0.1.31) (2018-06-27)
+
+
+### Bug Fixes
+
+* add test ([af2a784](https://github.com/react-core/react-core/commit/af2a784))
+
+
+
+
 <a name="0.1.30"></a>
 ## [0.1.30](https://github.com/react-core/react-core/compare/v0.1.29...v0.1.30) (2018-06-27)
 
