@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.1.29"></a>
+## [0.1.29](https://github.com/react-core/react-core/compare/v0.1.28...v0.1.29) (2018-06-27)
+
+
+### Bug Fixes
+
+* change label ([#18](https://github.com/react-core/react-core/issues/18)) ([ff9a26f](https://github.com/react-core/react-core/commit/ff9a26f))
+* remove text ([848f495](https://github.com/react-core/react-core/commit/848f495))
+* remove text ([#15](https://github.com/react-core/react-core/issues/15)) ([c3445bf](https://github.com/react-core/react-core/commit/c3445bf))
+
+
+
+
 <a name="0.1.28"></a>
 ## [0.1.28](https://github.com/react-core/react-core/compare/v0.1.4...v0.1.28) (2018-06-27)
 
