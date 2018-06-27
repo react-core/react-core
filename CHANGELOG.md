@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.1.33"></a>
+## [0.1.33](https://github.com/react-core/react-core/compare/v0.1.32...v0.1.33) (2018-06-27)
+
+
+
+
+**Note:** Version bump only for package react-core
+
 <a name="0.1.32"></a>
 ## [0.1.32](https://github.com/react-core/react-core/compare/v0.1.31...v0.1.32) (2018-06-27)
 
