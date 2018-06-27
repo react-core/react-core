@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.1.27"></a>
+## [0.1.27](https://github.com/react-core/react-core/compare/v0.1.26...v0.1.27) (2018-06-27)
+
+
+### Bug Fixes
+
+* remove text ([#14](https://github.com/react-core/react-core/issues/14)) ([f0119b8](https://github.com/react-core/react-core/commit/f0119b8))
+
+
+
+
 <a name="0.1.26"></a>
 ## [0.1.26](https://github.com/react-core/react-core/compare/v0.1.25...v0.1.26) (2018-06-26)
 
