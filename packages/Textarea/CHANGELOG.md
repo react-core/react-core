@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.1.37"></a>
+## [0.1.37](https://github.com/react-core/react-core/compare/v0.1.36...v0.1.37) (2018-06-27)
+
+
+
+
+**Note:** Version bump only for package @react-core/textarea
+
 <a name="0.1.36"></a>
 ## [0.1.36](https://github.com/react-core/react-core/compare/v0.1.35...v0.1.36) (2018-06-27)
 
