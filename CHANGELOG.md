@@ -3,6 +3,35 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.1.39"></a>
+## [0.1.39](https://github.com/react-core/react-core/compare/v0.1.4...v0.1.39) (2018-08-31)
+
+
+### Bug Fixes
+
+* add test ([af2a784](https://github.com/react-core/react-core/commit/af2a784))
+* add text ([75cf6cc](https://github.com/react-core/react-core/commit/75cf6cc))
+* add text ([12adf2a](https://github.com/react-core/react-core/commit/12adf2a))
+* add text ([26af86b](https://github.com/react-core/react-core/commit/26af86b))
+* button ([#11](https://github.com/react-core/react-core/issues/11)) ([3f808a4](https://github.com/react-core/react-core/commit/3f808a4))
+* change label ([#18](https://github.com/react-core/react-core/issues/18)) ([ff9a26f](https://github.com/react-core/react-core/commit/ff9a26f))
+* Change label test ([#13](https://github.com/react-core/react-core/issues/13)) ([6da4757](https://github.com/react-core/react-core/commit/6da4757))
+* remove text ([848f495](https://github.com/react-core/react-core/commit/848f495))
+* remove text ([#14](https://github.com/react-core/react-core/issues/14)) ([f0119b8](https://github.com/react-core/react-core/commit/f0119b8))
+* remove text ([#15](https://github.com/react-core/react-core/issues/15)) ([c3445bf](https://github.com/react-core/react-core/commit/c3445bf))
+* test ([da359a1](https://github.com/react-core/react-core/commit/da359a1))
+* test ([00a5d2b](https://github.com/react-core/react-core/commit/00a5d2b))
+* **publish:**  remove test ([7212c08](https://github.com/react-core/react-core/commit/7212c08))
+* Test ([#10](https://github.com/react-core/react-core/issues/10)) ([850e558](https://github.com/react-core/react-core/commit/850e558))
+* test ([#5](https://github.com/react-core/react-core/issues/5)) ([baafa81](https://github.com/react-core/react-core/commit/baafa81))
+* test ([#6](https://github.com/react-core/react-core/issues/6)) ([451b278](https://github.com/react-core/react-core/commit/451b278))
+* Test ([#7](https://github.com/react-core/react-core/issues/7)) ([5cc6ae4](https://github.com/react-core/react-core/commit/5cc6ae4))
+* Test ([#8](https://github.com/react-core/react-core/issues/8)) ([df38be3](https://github.com/react-core/react-core/commit/df38be3))
+* Test ([#9](https://github.com/react-core/react-core/issues/9)) ([c4510aa](https://github.com/react-core/react-core/commit/c4510aa))
+
+
+
+
 <a name="0.1.38"></a>
 ## [0.1.38](https://github.com/react-core/react-core/compare/v0.1.37...v0.1.38) (2018-06-27)
 

@@ -1,6 +1,6 @@
 {
   "name": "@react-core/theme-karbon",
-  "version": "0.1.37",
+  "version": "0.1.39",
   "description": "React Core - Theme Karbon",
   "main": "dist/ThemeKarbon.js",
   "scripts": {
