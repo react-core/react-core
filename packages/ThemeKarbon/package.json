@@ -1,12 +1,12 @@
 {
-  "name": "@react-core/textarea",
+  "name": "@react-core/theme-karbon",
   "version": "0.1.37",
-  "description": "React Core - Textarea",
-  "main": "dist/Textarea.js",
+  "description": "React Core - Theme Karbon",
+  "main": "dist/ThemeKarbon.js",
   "scripts": {
     "compile": "babel src --out-dir dist --ignore story.js,test.js --copy-files",
     "prepublish": "npm run compile",
-    "storybook": "STORYBOOK_PACKAGE=Textarea start-storybook -p 9001 -c ../../.storybook",
+    "storybook": "start-storybook -p 9001 -c ../../.storybook",
     "build-storybook": "build-storybook",
     "test": "jest --config ../../jest.config.js",
     "coverage": "jest --config ./jest.config.js --coverage"
@@ -21,18 +21,12 @@
     "access": "public"
   },
   "devDependencies": {
-    "@react-core/theme-bootstrap": "^0.1.37",
-    "@react-core/theme-karbon": "^0.1.37",
-    "@react-core/theme-material": "^0.1.37",
-    "@react-core/theme-provider": "^0.1.37",
     "@storybook/react": "3.4.2",
     "babel-cli": "6.26.0",
-    "eslint": "4.19.1",
     "jest": "22.4.3",
     "rimraf": "2.6.2"
   },
   "peerDependencies": {
-    "@react-core/theme-provider": "0.1.0",
     "prop-types": "^15.6.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2"

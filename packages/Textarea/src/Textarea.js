@@ -15,9 +15,9 @@ const Textarea = ({ label, placeholder, theme, ...rest }) => (
     render={({ style }) => (
       <div>
         <textarea
-          {...rest}
           placeholder={placeholder}
           onKeyUp={e => setValue(e)}
+          {...rest}
         />
         <hr />
         <label>{label}</label>

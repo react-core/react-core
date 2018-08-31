@@ -14,7 +14,7 @@ const TextField = ({ label, placeholder, theme, ...rest }) => (
     componentName={'TextField'}
     render={({ style }) => (
       <div>
-        <input {...rest} placeholder={placeholder} onKeyUp={e => setValue(e)} />
+        <input onKeyUp={e => setValue(e)} placeholder={placeholder} {...rest} />
         <hr />
         <label>{label}</label>
         <style jsx>{style}</style>

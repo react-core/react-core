@@ -1,20 +1,35 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
+import { text } from '@storybook/addon-knobs'
 import { TextField } from './TextField'
+import { theme as karbon } from '@react-core/theme-karbon'
 import { theme as bootstrap } from '@react-core/theme-bootstrap'
 import { theme as material } from '@react-core/theme-material'
 
-const TextFieldBootstrap = () => (
-  <TextField theme={bootstrap} placeholder={'Please enter your email'} />
+const TextFieldKarbon = () => (
+  <TextField
+    theme={karbon}
+    placeholder={text('placeholder', 'This is a placeholder')}
+    label={text('label', 'TextField label')}
+  />
 )
 
 const TextFieldMaterial = () => (
   <TextField
     theme={material}
-    placeholder={'Please enter your email'}
-    label={'Text'}
+    placeholder={text('placeholder', 'This is a placeholder')}
+    label={text('label', 'TextField label')}
   />
 )
 
-storiesOf('Bootstrap', module).add('TextField', () => <TextFieldBootstrap />)
+const TextFieldBootstrap = () => (
+  <TextField
+    theme={bootstrap}
+    placeholder={text('placeholder', 'This is a placeholder')}
+    label={text('label', '')}
+  />
+)
+
+storiesOf('Karbon', module).add('TextField', () => <TextFieldKarbon />)
 storiesOf('Material', module).add('TextField', () => <TextFieldMaterial />)
+storiesOf('Bootstrap', module).add('TextField', () => <TextFieldBootstrap />)
