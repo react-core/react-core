@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 export { toast } from 'react-toastify'
 import { Provider } from '@react-core/theme-provider'
 import { ToastContainer as ToastifyContainer } from 'react-toastify'
-import toastifyStyle from './Toast.scss'
+import toastifyStyle from './Toast.style.scss';
 
 export const ToastContainer = ({ theme, ...rest }) => (
   <Provider
@@ -13,10 +13,10 @@ export const ToastContainer = ({ theme, ...rest }) => (
       <div>
         <ToastifyContainer {...rest} />
         <style jsx global>
-          {toastifyStyle}
+          {style}
         </style>
         <style jsx global>
-          {style}
+          {toastifyStyle}
         </style>
       </div>
     )}
