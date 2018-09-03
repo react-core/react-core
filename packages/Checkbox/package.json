@@ -1,6 +1,6 @@
 {
   "name": "@react-core/checkbox",
-  "version": "0.1.41",
+  "version": "0.1.42",
   "description": "React Core - Checkbox",
   "main": "dist/Checkbox.js",
   "scripts": {
@@ -21,10 +21,10 @@
     "access": "public"
   },
   "devDependencies": {
-    "@react-core/theme-bootstrap": "^0.1.41",
-    "@react-core/theme-karbon": "^0.1.41",
-    "@react-core/theme-material": "^0.1.41",
-    "@react-core/theme-provider": "^0.1.41",
+    "@react-core/theme-bootstrap": "^0.1.42",
+    "@react-core/theme-karbon": "^0.1.42",
+    "@react-core/theme-material": "^0.1.42",
+    "@react-core/theme-provider": "^0.1.42",
     "@storybook/react": "3.4.2",
     "babel-cli": "6.26.0",
     "eslint": "4.19.1",
