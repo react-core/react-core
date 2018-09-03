@@ -45,6 +45,12 @@ div {
     &:not(:focus)::placeholder {
       color: transparent;
     }
+    &:disabled {
+      border-bottom: 1px solid #e5e9f2;
+      &~ label {
+        color: #e5e9f2 !important;
+      }
+    }
   }
   hr {
     content: '';

@@ -68,6 +68,12 @@ div {
           color: #d2636d;
         }
       }
+      &:disabled {
+        border-bottom: 1px solid #e5e9f2;
+        &~ label {
+          color: #e5e9f2 !important;
+        }
+      }
     }
     hr {
       content: '';

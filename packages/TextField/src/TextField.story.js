@@ -1,6 +1,6 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
-import { text } from '@storybook/addon-knobs'
+import { text, boolean } from '@storybook/addon-knobs'
 import { TextField } from './TextField'
 import { theme as karbon } from '@react-core/theme-karbon'
 import { theme as bootstrap } from '@react-core/theme-bootstrap'
@@ -11,6 +11,7 @@ const TextFieldKarbon = () => (
     theme={karbon}
     placeholder={text('placeholder', 'This is a placeholder')}
     label={text('label', 'TextField label')}
+    disabled={boolean('disabled')}
   />
 )
 
@@ -19,6 +20,7 @@ const TextFieldMaterial = () => (
     theme={material}
     placeholder={text('placeholder', 'This is a placeholder')}
     label={text('label', 'TextField label')}
+    disabled={boolean('disabled')}
   />
 )
 
@@ -27,6 +29,7 @@ const TextFieldBootstrap = () => (
     theme={bootstrap}
     placeholder={text('placeholder', 'This is a placeholder')}
     label={text('label', '')}
+    disabled={boolean('disabled')}
   />
 )
 
